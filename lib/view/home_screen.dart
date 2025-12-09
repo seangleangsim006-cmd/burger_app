@@ -218,13 +218,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                         fontSize: 18,
                                         fontWeight: FontWeight.w500,
                                       ),
-                                      maxLines: 1,
                                     ),
                                     Text(
                                       p.description,
                                       textAlign: TextAlign.center,
                                       style: TextStyle(fontSize: 12),
-                                       maxLines: 2,
                                     ),
                                     SizedBox(height: 12),
                                     Row(
